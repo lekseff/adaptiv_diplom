@@ -301,15 +301,15 @@
                     </div>
                </section>
 
-               <section class="search">
-                <form class="search__form">
-                    <label class="search__box">
-                        <span class="visually-hidden">Поле поиска</span>
-                        <input class="search__field" type="search" placeholder="Найти...">
-                    </label>
-                    <button class="search__button" type="submit"></button>
-                </form>
-               </section>
+               <div class="search">
+                    <form class="search__form">
+                        <label class="search__box">
+                            <span class="visually-hidden">Поле поиска</span>
+                            <input class="search__field" type="search" placeholder="Найти...">
+                        </label>
+                        <button class="search__button" type="submit"></button>
+                    </form>
+               </div>
 
                <section class="mailing">
                    <h2 class="sidebar__title"><a href="#0">Рассылка</a></h2>
@@ -379,9 +379,8 @@
                         <picture class="products__images">
                             <source media="(min-width: 1200px)" srcset="img/shop-item-desk1.jpg">
                             <source media="(min-width: 641px)" srcset="img/shop-item-tablet1.jpg">
-                            <img src="img/shop-item-mobile1.jpg" alt="Photo">
+                            <img src="img/shop-item-mobile1.jpg" alt="Изображение подушки с принтом">
                         </picture>
-                        <!-- <img src="img/shop-item-desk1.jpg" alt="Photo"> -->
                     <!-- </div> -->
                     <div class="products__card_body">
                         <h3 class="products__card_title">Подушки на диван</h3>
@@ -403,17 +402,16 @@
                 </article>
 
                 <article class="products_card">
-                    <div class="products__images">
-                        <picture>
+                    <!-- <div class="products__images"> -->
+                        <picture class="products__images">
                             <source media="(min-width: 1200px)" srcset="img/shop-item-desk2.jpg">
                             <source media="(min-width: 641px)" srcset="img/shop-item-tablet2.jpg">
-                            <img src="img/shop-item-mobile2.jpg" alt="Photo">
+                            <img src="img/shop-item-mobile2.jpg" alt="Рукодельная кукла похожая на зайчика">
                         </picture>
-                        <!-- <img src="img/shop-item-desk2.jpg" alt="Photo"> -->
-                    </div>
+                    <!-- </div> -->
                     <div class="products__card_body">
                         <h3 class="products__card_title">Кукла «Зайчик»</h3>
-                        <p class="products__card_description">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a class="products__card_link" href="#0">весенняя серия постов</a> в блоге и несколько подкастов</a></p>
+                        <p class="products__card_description">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a class="products__card_link" href="#0">весенняя серия постов</a> в блоге и несколько подкастов</p>
                         <div class="products__prices">
                             <div class="products__price_box">
                                 <div class="products__price">
@@ -431,14 +429,13 @@
                 </article>
 
                 <article class="products_card">
-                    <div class="products__images">
-                        <picture>
+                    <!-- <div class="products__images"> -->
+                        <picture class="products__images">
                             <source media="(min-width: 1200px)" srcset="img/shop-item-desk3.jpg">
                             <source media="(min-width: 641px)" srcset="img/shop-item-tablet3.jpg">
-                            <img src="img/shop-item-mobile3.jpg" alt="Photo">
+                            <img src="img/shop-item-mobile3.jpg" alt="Шестиугольная рамка из дерева">
                         </picture>
-                        <!-- <img src="img/shop-item-desk3.jpg" alt="Photo"> -->
-                    </div>
+                    <!-- </div> -->
                     <div class="products__card_body">
                         <h3 class="products__card_title">Шестиугольная рамка</h3>
                         <p class="products__card_description">Необычная рамка для украшения дома из видео <a class="products__card_link" href="#0">«Как сделать рамку из подручных средств за 30 минут»</a></p>
@@ -495,6 +492,56 @@
                 <p><a href="#0">Copyright © 2009–2019 City Blog LLC.</a></p>
             </div>
         </footer>
+    </div>
+
+    <div class="popup popup-active">
+        <div class="popup__window">
+            <h2 class="cards__block_title orange">Ваш фидбэк</h2>
+            <div class="popup__close">
+                <button class="popup__close_button">
+                    <img src="svg/form-x.svg" alt="Close button">
+                </button>
+            </div>
+            <form class="popup__form form" name="popup_feedback">
+                <div class="form__box">
+                    <label class="form__group">
+                        <span class="form__description">Как часто вы заходите на сайт?</span>
+                        <span class="visually-hidden">Поле выбора значения Как часто вы заходите на сайт?</span>
+                        <select class="form__select" name="select">
+                            <option value="S1">Почти каждый день</option>
+                            <option value="S2">Редко</option>
+                            <option value="S3">Раз в неделю</option>
+                            <option value="S4">Затрудняюсь ответить</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div class="form__box">
+                    <span class="form__description">Вы подписаны на e-mail рассылку?</span>
+                    <span class="visually-hidden">Поле выбора значения Да или Нет</span>
+                    <label class="radio__group">
+                        <input class="radio" type="radio" name="email" checked>
+                        <span class="form__radio_description">Да</span>
+                    </label>
+                    <label class="radio__group">
+                        <input class="radio" type="radio" name="email">
+                        <span class="form__radio_description">Нет</span>
+                    </label>
+
+                </div>
+                <div class="form__box">
+                    <span class="form__description">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+                    <span class="visually-hidden">Поле для ввода текста</span>
+                    <textarea class="textarea_field" name="textarea" placeholder="Может,больше рецептов?"></textarea>
+                </div>
+                <div class="form__box">
+                    <span class="visually-hidden">Кнопка отправить</span>
+                    <button class="form__button" type="submit">Отправить
+                    </button>
+                </div>
+
+            </form>
+        </div>
     </div>
 </body>
 </html>
