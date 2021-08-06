@@ -11,297 +11,270 @@
 <body>
     <header class="header">
         <div class="wrapper">
-            <div class="header_content">
-                <nav class="nav">
-                    <div class="logo">
-                        <a class="logo_link" href="/"><img class="logo_image" src="svg/noemi-logo.svg" alt="Логитип блога"></a>
+            <div class="header__content">
+                <nav class="header__nav nav">
+                    <div class="nav__logo">
+                        <a class="nav__logo-link" href="/"><img class="nav__logo-image" src="svg/noemi-logo.svg" alt="Логитип блога"></a>
                     </div>
-                    <div class="menu__box">
-                        <ul class="menu_items">
-                            <li class="menu_item"><a class="menu_link" href="#0">Главная</a></li>
-                            <li class="menu_item"><a class="menu_link" href="#0">Посты</a></li>
-                            <li class="menu_item"><a class="menu_link" href="#0">Статьи</a></li>
-                            <li class="menu_item"><a class="menu_link" href="#0">Теги</a></li>
-                            <li class="menu_item"><a class="menu_link" href="#0">Темы</a></li>
-                            <li class="menu_item"><a class="menu_link" href="#0">Контакты</a></li>
+                    <div class="nav__menu">
+                        <ul class="nav__menu-items">
+                            <li class="nav__menu-item"><a class="nav__menu-link" href="#0">Главная</a></li>
+                            <li class="nav__menu-item"><a class="nav__menu-link" href="#0">Посты</a></li>
+                            <li class="nav__menu-item"><a class="nav__menu-link" href="#0">Статьи</a></li>
+                            <li class="nav__menu-item"><a class="nav__menu-link" href="#0">Теги</a></li>
+                            <li class="nav__menu-item"><a class="nav__menu-link" href="#0">Темы</a></li>
+                            <li class="nav__menu-item"><a class="nav__menu-link" href="#0">Контакты</a></li>
                         </ul>
                     </div>
-                    <div class="menu__burger burger">
-                        <span class="burger__line burger_first_line"></span>
-                        <span class="burger__line burger_second_line"></span>
-                        <span class="burger__line burger_third_line"></span>
+                    <div class="nav__burger">
+                        <span class="nav__burger-line"></span>
+                        <span class="nav__burger-line nav__burger-line--medium"></span>
+                        <span class="nav__burger-line"></span>
                     </div>
 
                 </nav>
-                <div class="header_text">
-                    <h1 class="header_title"><a href="#0">Блог о творчестве, спорте и образе жизни</a></h1>
+                <div class="header__text">
+                    <h1 class="header__title"><a class="header__text-link" href="#0">Блог о творчестве, спорте и образе жизни</a></h1>
                 </div>
             </div>
         </div>
     </header>
 
     <div class="trends">
-        <h2 class="cards__block_title orange">Сейчас в тренде</h2>
+        <h2 class="subtitle trends__subtitle">Сейчас в тренде</h2>
         <div class="trends__cards">
 
             <article class="trends__card">
                 <img class="trends__images" src="img/trend1.jpg" alt="Photo">
                 <div class="trends__content">
-                    <ul class="card__tag_list">
-                        <li><a href="#0">Lifestyle</a></li>
-                        <li><a href="#0">Interior</a></li>
+                    <ul class="card-tags trends__tags">
+                        <li class="card-tags__item"><a class="card-tags__link" href="#0">Lifestyle</a></li>
+                        <li class="card-tags__item"><a class="card-tags__link" href="#0">Interior</a></li>
                     </ul>
-                    <h3 class="trends__card_title">Сейчас в тренде: сад на подоконнике</h3>
+                    <h3 class="card-title trends__card-title">Сейчас в тренде: сад на подоконнике</h3>
                 </div>
             </article>
             
             <article class="trends__card">
                 <img class="trends__images" src="img/trend2.jpg" alt="Photo">
                 <div class="trends__content">
-                    <ul class="card__tag_list">
-                        <li><a href="#0">Food</a></li>
+                    <ul class="card-tags trends__tags">
+                        <li class="card-tags__item"><a class="card-tags__link" href="#0">Food</a></li>
                     </ul>
-                    <h3 class="trends__card_title">Сыры на красивых картинках из интернета: какие они на вкус?</h3>
+                    <h3 class="card-title trends__card-title">Сыры на красивых картинках из интернета: какие они на вкус?</h3>
                 </div>
             </article>
 
             <article class="trends__card">
                 <img class="trends__images" src="img/trend3.jpg" alt="Photo">
                 <div class="trends__content">
-                    <ul class="card__tag_list">
-                        <li><a href="#0">Lifestyle</a></li>
-                        <li><a href="#0">Travel</a></li>
+                    <ul class="card-tags trends__tags">
+                        <li class="card-tags__item"><a class="card-tags__link" href="#0">Lifestyle</a></li>
+                        <li class="card-tags__item"><a class="card-tags__link" href="#0">Travel</a></li>
                     </ul>
-                    <h3 class="trends__card_title">Собираемся в первый поход в горы</h3>
+                    <h3 class="card-title trends__card-title">Собираемся в первый поход в горы</h3>
                 </div>
             </article>
 
             <article class="trends__card">
                 <img class="trends__images" src="img/trend4.jpg" alt="Photo">
                 <div class="trends__content">
-                    <ul class="card__tag_list">
-                        <li><a href="#0">Food</a></li>
-                        <li><a href="#0">Health</a></li>
+                    <ul class="card-tags trends__tags">
+                        <li class="card-tags__item"><a class="card-tags__link" href="#0">Food</a></li>
+                        <li class="card-tags__item"><a class="card-tags__link" href="#0">Health</a></li>
                     </ul>
-                    <h3 class="trends__card_title">Сейчас в тренде: сколько витаминов в лимонах?</h3>
+                    <h3 class="card-title trends__card-title">Сейчас в тренде: сколько витаминов в лимонах?</h3>
                 </div>
             </article>
-            
-            
         </div>
     </div>
 
     <div class="wrapper">
-        <div class="content">
-            <div class="main__cards">
+        <div class="content wrapper__content">
+            <div class="content__cards">
 
-                <article class="main__card">
-                    <div class="card_image">
-                        <img src="img/last-post1.jpg" alt="Рассвет на берегу моря">
+                <article class="main-card content__cards-card">
+                    <div class="main-card__images-box">
+                        <img class="main-card__image" src="img/last-post1.jpg" alt="Рассвет на берегу моря">
                     </div>
-                    <div class="card__content">
-                        <div class="card_tag">
-                            <ul class="card__tag_list">
-                                <li><a href="#0">Travel</a></li>
-                                <li><a href="#0">Health</a></li>
+                    <div class="main-card__content">
+                        <!-- <div class="card_tag"> -->
+                            <ul class="card-tags content__cards-tags">
+                                <li class="card-tags__item"><a class="card-tags__link" href="#0">Travel</a></li>
+                                <li class="card-tags__item"><a class="card-tags__link" href="#0">Health</a></li>
                             </ul>
+                        <!-- </div> -->
+                        <h2 class="card-title content__cards-title"><a class="card-title__link" href="#0">10 мест, ради которых стоит проснуться на рассвете</a></h2>
+                        <div class="main-card__info">
+                            <span class="main-card__date">10 июня 2019</span>
+                            <span class="main-card__author">Неизвестный автор</span>
                         </div>
-                        <h2 class="card__title"><a class="card__title_link" href="#0">10 мест, ради которых стоит проснуться на рассвете</a></h2>
-                        <div class="card__info">
-                            <span class="card__date">10 июня 2019</span>
-                            <span class="card__author">Неизвестный автор</span>
-                        </div>
-                        <div class="card_text">
-                            <p class="card__description">
+                        <div class="main-card__text">
+                            <p class="main-card__description">
                                 Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города… Музеи еще закрыты. Что посмотреть?
                             </p>
                         </div>
                     </div>
                 </article>
 
-                <article class="main__card">
-                    <div class="card_image">
-                        <img src="img/last-post2.jpg" alt="Занятие йогой">
+                <article class="main-card content__cards-card">
+                    <div class="main-card__images-box">
+                        <img class="main-card__image" src="img/last-post2.jpg" alt="Занятие йогой">
                     </div>
-                    <div class="card__content">
-                        <div class="card_tag">
-                            <ul class="card__tag_list">
-                                <li><a href="#0">health</a></li>
-                                <li><a href="#0">lifestyle</a></li>
+                    <div class="main-card__content">
+                        <!-- <div class="card_tag"> -->
+                            <ul class="card-tags content__cards-tags">
+                                <li class="card-tags__item"><a class="card-tags__link" href="#0">health</a></li>
+                                <li class="card-tags__item"><a class="card-tags__link" href="#0">lifestyle</a></li>
                             </ul>
+                        <!-- </div> -->
+                        <h2 class="card-title content__cards-title"><a class="card-title__link" href="#0">Йога для начинающих в домашних условиях</a></h2>
+                        <div class="main-card__info">
+                            <span class="main-card__date">10 июня 2019</span>
+                            <span class="main-card__author">Неизвестный автор</span>
                         </div>
-                        <h2 class="card__title"><a class="card__title_link" href="#0">Йога для начинающих в домашних условиях</a></h2>
-                        <div class="card__info">
-                            <span class="card__date">10 июня 2019</span>
-                            <span class="card__author">Неизвестный автор</span>
-                        </div>
-                        <div class="card_text">
-                            <p class="card__description">
+                        <div class="main-card__text">
+                            <p class="main-card__description">
                                 Расскажем, какие упражнения выбрать и как сделать коврик для занятий йогой из того, что можно найти в шкафу.
                             </p>
                         </div>
                     </div>
                 </article>
 
-                <article class="main__card">
-                    <div class="card_image">
-                        <img src="img/last-post3.jpg" alt="Музыкальный фестиваль">
+                <article class="main-card content__cards-card">
+                    <div class="main-card__images-box">
+                        <img class="main-card__image" src="img/last-post3.jpg" alt="Музыкальный фестиваль">
                     </div>
-                    <div class="card__content">
-                        <div class="card_tag">
-                            <ul class="card__tag_list">
-                                <li><a href="#0">music</a></li>
+                    <div class="main-card__content">
+                        <!-- <div class="card_tag"> -->
+                            <ul class="card-tags content__cards-tags">
+                                <li class="card-tags__item"><a class="card-tags__link" href="#0">music</a></li>
                             </ul>
+                        <!-- </div> -->
+                        <h2 class="card-title content__cards-title"><a class="card-title__link" href="#0">Лучшие музыкальные фестивали этого лета</a></h2>
+                        <div class="main-card__info">
+                            <span class="main-card__date">10 июня 2019</span>
+                            <span class="main-card__author">Неизвестный автор</span>
                         </div>
-                        <h2 class="card__title"><a class="card__title_link" href="#0">Лучшие музыкальные фестивали этого лета</a></h2>
-                        <div class="card__info">
-                            <span class="card__date">10 июня 2019</span>
-                            <span class="card__author">Неизвестный автор</span>
-                        </div>
-                        <div class="card_text">
-                            <p class="card__description">
+                        <div class="main-card__text">
+                            <p class="main-card__description">
                                 Лето на носу, а с ним и музыкальные фестивали. На каком же из них вы разобьёте свою палатку?
                             </p>
-                            <p class="card__description">
+                            <p class="main-card__description">
                                 Мы составили список лучших летних фестивалей по всему миру.
                             </p>
                         </div>
                     </div>
                 </article>
 
-                <article class="main__card">
-                    <div class="card_image">
-                        <img src="img/last-post4.jpg" alt="Стол с едой">
+                <article class="main-card content__cards-card">
+                    <div class="main-card__images-box">
+                        <img class="main-card__image" src="img/last-post4.jpg" alt="Стол с едой">
                     </div>
-                    <div class="card__content">
-                        <div class="card_tag">
-                            <ul class="card__tag_list">
-                                <li><a href="#0">lifestyle</a></li>
-                                <li><a href="#0">food</a></li>
+                    <div class="main-card__content">
+                        <!-- <div class="card_tag"> -->
+                            <ul class="card-tags content__cards-tags">
+                                <li class="card-tags__item"><a class="card-tags__link" href="#0">lifestyle</a></li>
+                                <li class="card-tags__item"><a class="card-tags__link" href="#0">food</a></li>
                             </ul>
+                        <!-- </div> -->
+                        <h2 class="card-title content__cards-title"><a class="card-title__link" href="#0">Наукоёмкий подход к кулинарии</a></h2>
+                        <div class="main-card__info">
+                            <span class="main-card__date">10 июня 2019</span>
+                            <span class="main-card__author">Неизвестный автор</span>
                         </div>
-                        <h2 class="card__title"><a class="card__title_link" href="#0">Наукоёмкий подход к кулинарии</a></h2>
-                        <div class="card__info">
-                            <span class="card__date">10 июня 2019</span>
-                            <span class="card__author">Неизвестный автор</span>
-                        </div>
-                        <div class="card_text">
-                            <p class="card__description">
+                        <div class="main-card__text">
+                            <p class="main-card__description">
                                 Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и микробиологию еды.
                             </p>
                         </div>
                     </div>
                 </article>
 
-                <article class="main__card">
-                    <div class="card_image">
-                        <img src="img/last-post5.jpg" alt="Не большая подушка с принтом">
+                <article class="main-card content__cards-card">
+                    <div class="main-card__images-box">
+                        <img class="main-card__image" src="img/last-post5.jpg" alt="Не большая подушка с принтом">
                     </div>
-                    <div class="card__content">
-                        <div class="card_tag">
-                            <ul class="card__tag_list">
-                                <li><a href="#0">health</a></li>
-                                <li><a href="#0">imterior</a></li>
-                                <li><a href="#0">art</a></li>
+                    <div class="main-card__content">
+                        <!-- <div class="card_tag"> -->
+                            <ul class="card-tags content__cards-tags">
+                                <li class="card-tags__item"><a class="card-tags__link" href="#0">health</a></li>
+                                <li class="card-tags__item"><a class="card-tags__link" href="#0">imterior</a></li>
+                                <li class="card-tags__item"><a class="card-tags__link" href="#0">art</a></li>
                             </ul>
+                        <!-- </div> -->
+                        <h2 class="card-title content__cards-title"><a class="card-title__link" href="#0">Делаем модные принты на подушках для интерьера</a></h2>
+                        <div class="main-card__info">
+                            <span class="main-card__date">10 июня 2019</span>
+                            <span class="main-card__author">Неизвестный автор</span>
                         </div>
-                        <h2 class="card__title"><a class="card__title_link" href="#0">Делаем модные принты на подушках для интерьера</a></h2>
-                        <div class="card__info">
-                            <span class="card__date">10 июня 2019</span>
-                            <span class="card__author">Неизвестный автор</span>
-                        </div>
-                        <div class="card_text">
-                            <p class="card__description">
+                        <div class="main-card__text">
+                            <p class="main-card__description">
                                 Подушки для дивана целесообразнее заказать в съемных чехлах на молнии, если потребуется чистка подушек, проще снять чехлы, чем везти подушку в химчистку.
                             </p>
                         </div>
                     </div>
                 </article>
-
-                <!-- <article class="main__card">
-                    <div class="card_image">
-                        <img src="img/last-post4.jpg" alt="Стол с едой">
-                    </div>
-                    <div class="card__content">
-                        <div class="card_tag">
-                            <ul class="card__tag_list">
-                                <li><a href="#0">lifestyle</a></li>
-                                <li><a href="#0">food</a></li>
-                            </ul>
-                        </div>
-                        <h2 class="card__title"><a class="card__title_link" href="#0">Наукоёмкий подход к кулинарии</a></h2>
-                        <div class="card__info">
-                            <span class="card__date">10 июня 2019</span>
-                            <span class="card__author">Неизвестный автор</span>
-                        </div>
-                        <div class="card_text">
-                            <p class="card__description">
-                                Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и микробиологию еды.
-                            </p>
-                        </div>
-                    </div>
-                </article> -->
             </div>
     
-            <aside class="sidebar">
-               <section class="posts">
-                    <h2 class="sidebar__title"><a href="#0">Новые посты</a></h2>
+            <aside class="sidebar content__sidebar">
+               <section class="sidebar__posts posts">
+                    <h2 class="sidebar-title"><a class="sidebar-title__link" href="#0">Новые посты</a></h2>
                     <div class="posts__cards">
 
                         <article class="posts__card">
-                            <div class="posts__card_images">
-                                <img src="img/2.jpg" alt="Рассвет на берегу моря">
+                            <div class="posts__card-images">
+                                <img class="posts__card-img" src="img/2.jpg" alt="Рассвет на берегу моря">
                             </div>
-                            <div class="posts__card_content">
-                                <span class="post__card__date">14 июня 2019</span>
-                                <h3 class="posts__card_title"><a href="#0">10 мест, ради которых стоит проснуться</a></h3>
-                            </div>
-                        </article>
-
-                        <article class="posts__card">
-                            <div class="posts__card_images">
-                                <img src="img/151.jpg" alt="Занятие йогой">
-                            </div>
-                            <div class="posts__card_content">
-                                <p class="post__card__date">14 июня 2019</p>
-                                <h3 class="posts__card_title"><a href="#0">Йога для домашних</a></h3>
+                            <div class="posts__card-content">
+                                <p class="posts__card-date">14 июня 2019</p>
+                                <h3 class="posts__card-title"><a class="posts__card-link" href="#0">10 мест, ради которых стоит проснуться</a></h3>
                             </div>
                         </article>
 
                         <article class="posts__card">
-                            <div class="posts__card_images">
-                                <img src="img/45.jpg" alt="Предметы мебели в комнате">
+                            <div class="posts__card-images">
+                                <img class="posts__card-img" src="img/151.jpg" alt="Занятие йогой">
                             </div>
-                            <div class="posts__card_content">
-                                <p class="post__card__date">14 июня 2019</p>
-                                <h3 class="posts__card_title"><a href="#0">как мы превратили классное место в балкон</a></h3>
-                            </div>
-                        </article>
-
-                        <article class="posts__card">
-                            <div class="posts__card_images">
-                                <img src="img/501.jpg" alt="Стол с едой">
-                            </div>
-                            <div class="posts__card_content">
-                                <p class="post__card__date">14 июня 2019</p>
-                                <h3 class="posts__card_title"><a href="#0">Кулинарный подход к науке</a></h3>
+                            <div class="posts__card-content">
+                                <p class="posts__card-date">14 июня 2019</p>
+                                <h3 class="posts__card-title"><a class="posts__card-link" href="#0">Йога для домашних</a></h3>
                             </div>
                         </article>
 
                         <article class="posts__card">
-                            <div class="posts__card_images">
-                                <img src="img/7.jpg" alt="Девушки с распущенными волосами">
+                            <div class="posts__card-images">
+                                <img class="posts__card-img" src="img/45.jpg" alt="Предметы мебели в комнате">
                             </div>
-                            <div class="posts__card_content">
-                                <p class="post__card__date">14 июня 2019</p>
-                                <h3 class="posts__card_title"><a href="#0">лучшие прически для распущенных волос</a></h3>
+                            <div class="posts__card-content">
+                                <p class="posts__card-date">14 июня 2019</p>
+                                <h3 class="posts__card-title"><a class="posts__card-link" href="#0">как мы превратили классное место в балкон</a></h3>
                             </div>
                         </article>
 
+                        <article class="posts__card">
+                            <div class="posts__card-images">
+                                <img class="posts__card-img" src="img/501.jpg" alt="Стол с едой">
+                            </div>
+                            <div class="posts__card-content">
+                                <p class="posts__card-date">14 июня 2019</p>
+                                <h3 class="posts__card-title"><a class="posts__card-link" href="#0">Кулинарный подход к науке</a></h3>
+                            </div>
+                        </article>
+
+                        <article class="posts__card">
+                            <div class="posts__card-images">
+                                <img class="posts__card-img" src="img/7.jpg" alt="Девушки с распущенными волосами">
+                            </div>
+                            <div class="posts__card-content">
+                                <p class="posts__card-date">14 июня 2019</p>
+                                <h3 class="posts__card-title"><a class="posts__card-link" href="#0">лучшие прически для распущенных волос</a></h3>
+                            </div>
+                        </article>
                     </div>
                </section>
 
-               <div class="search">
+               <div class="search content__search">
                     <form class="search__form">
                         <label class="search__box">
                             <span class="visually-hidden">Поле поиска</span>
@@ -311,8 +284,8 @@
                     </form>
                </div>
 
-               <section class="mailing">
-                   <h2 class="sidebar__title"><a href="#0">Рассылка</a></h2>
+               <section class="mailing content__mailing">
+                   <h2 class="sidebar-title mailing__title"><a class="sidebar-title__link" href="#0">Рассылка</a></h2>
                     <form class="mailing__form">
                         <label class="mailing__box">
                             <span class="visually-hidden">Поле ввода email адреса для получения рассылки</span>
@@ -322,24 +295,24 @@
                     </form>
                </section>
 
-               <section class="tags">
-                    <h2 class="sidebar__title"><a href="#0">Теги</a></h2>
+               <section class="tags content__tags">
+                    <h2 class="sidebar-title tags__title"><a class="sidebar-title__link" href="#0">Теги</a></h2>
                     <div class="tags__items">
-                        <ul class="tags__list">
-                            <li><a class="tags__link" href="#0">Fashion</a></li>
-                            <li><a class="tags__link" href="#0">Music</a></li>
-                            <li><a class="tags__link" href="#0">Lifestyle</a></li>
-                            <li><a class="tags__link" href="#0">Art</a></li>
-                            <li><a class="tags__link" href="#0">Interior</a></li>
-                            <li><a class="tags__link" href="#0">Travel</a></li>
-                            <li><a class="tags__link" href="#0">Food</a></li>
-                            <li><a class="tags__link" href="#0">Health</a></li>
+                        <ul class="tags__list-items">
+                            <li class="tags__list-item"><a class="tags__list-link" href="#0">Fashion</a></li>
+                            <li class="tags__list-item"><a class="tags__list-link" href="#0">Music</a></li>
+                            <li class="tags__list-item"><a class="tags__list-link" href="#0">Lifestyle</a></li>
+                            <li class="tags__list-item"><a class="tags__list-link" href="#0">Art</a></li>
+                            <li class="tags__list-item"><a class="tags__list-link" href="#0">Interior</a></li>
+                            <li class="tags__list-item"><a class="tags__list-link" href="#0">Travel</a></li>
+                            <li class="tags__list-item"><a class="tags__list-link" href="#0">Food</a></li>
+                            <li class="tags__list-item"><a class="tags__list-link" href="#0">Health</a></li>
                         </ul>
                     </div>
                </section>
 
-               <section>  
-                    <h2 class="sidebar__title"><a href="#0">Темы</a></h2>
+               <section class="theme content__theme">  
+                    <h2 class="sidebar-title theme__title"><a class="sidebar-title__link" href="#0">Темы</a></h2>
                     <ul class="theme__items">
                         <li class="theme__item">
                             <a class="theme__link" href="#0">Красота</a>
@@ -370,136 +343,132 @@
             </aside>
         </div>
 
-        <div class="products">
-            <h2 class="cards__block_title orange">Наши изделия</h2>
+        <div class="products wrapper__products">
+            <h2 class="subtitle products__subtitle">Наши изделия</h2>
             <div class="products__cards">
 
-                <article class="products_card">
-                    <!-- <div class="products__images"> -->
-                        <picture class="products__images">
-                            <source media="(min-width: 1200px)" srcset="img/shop-item-desk1.jpg">
-                            <source media="(min-width: 641px)" srcset="img/shop-item-tablet1.jpg">
-                            <img src="img/shop-item-mobile1.jpg" alt="Изображение подушки с принтом">
+                <article class="product-card products__card">
+                        <picture class="product-card__images">
+                            <source class="product-card__images-first" media="(min-width: 1200px)" srcset="img/shop-item-desk1.jpg">
+                            <source class="product-card__images-second" media="(min-width: 641px)" srcset="img/shop-item-tablet1.jpg">
+                            <img class="product-card__img" src="img/shop-item-mobile1.jpg" alt="Изображение подушки с принтом">
                         </picture>
-                    <!-- </div> -->
-                    <div class="products__card_body">
-                        <h3 class="products__card_title">Подушки на диван</h3>
-                        <p class="products__card_description">Набор подушек с модными принтами. Видео о создании <a class="products__card_link" href="#0">здесь</a>.</p>
-                        <div class="products__prices">
-                            <div class="products__price_box">
-                                <div class="products__price products__price_old">
-                                    <span class="products__price_value">1000</span>
-                                    <span class="products__price_rub">₽</span>
+                    <div class="product-card__body">
+                        <h3 class="product-card__title">Подушки на диван</h3>
+                        <p class="product-card__description">Набор подушек с модными принтами. Видео о создании <a class="product-card__link" href="#0">здесь</a>.</p>
+                        <div class="product-card__prices">
+                            <div class="product-card__price-box">
+                                <div class="product-card__price product-card__price-old">
+                                    <span class="product-card__price-value">1000</span>
+                                    <span class="product-card__price-rub">₽</span>
                                 </div>   
-                                <div class="products__price">
-                                    <span class="products__price_value">800</span>
-                                    <span class="products__price_rub">₽</span>
+                                <div class="product-card__price">
+                                    <span class="product-card__price-value">800</span>
+                                    <span class="product-card__price-rub">₽</span>
                                 </div>
                             </div>
-                            <a class="products__price_button" href="#0">В магазин</a>
+                            <a class="product-card__price-button" href="#0">В магазин</a>
                         </div>
                     </div>
                 </article>
 
-                <article class="products_card">
-                    <!-- <div class="products__images"> -->
-                        <picture class="products__images">
-                            <source media="(min-width: 1200px)" srcset="img/shop-item-desk2.jpg">
-                            <source media="(min-width: 641px)" srcset="img/shop-item-tablet2.jpg">
-                            <img src="img/shop-item-mobile2.jpg" alt="Рукодельная кукла похожая на зайчика">
+                <article class="product-card products__card">
+                        <picture class="product-card__images">
+                            <source class="product-card__images-first" media="(min-width: 1200px)" srcset="img/shop-item-desk2.jpg">
+                            <source class="product-card__images-second" media="(min-width: 641px)" srcset="img/shop-item-tablet2.jpg">
+                            <img class="product-card__img" src="img/shop-item-mobile2.jpg" alt="Рукодельная кукла похожая на зайчика">
                         </picture>
-                    <!-- </div> -->
-                    <div class="products__card_body">
-                        <h3 class="products__card_title">Кукла «Зайчик»</h3>
-                        <p class="products__card_description">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a class="products__card_link" href="#0">весенняя серия постов</a> в блоге и несколько подкастов</p>
-                        <div class="products__prices">
-                            <div class="products__price_box">
-                                <div class="products__price">
-                                    <span class="products__price_value"></span>
-                                    <span class="products__price_rub"></span>
+                    <div class="product-card__body">
+                        <h3 class="product-card__title">Кукла «Зайчик»</h3>
+                        <p class="product-card__description">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a class="product-card__link" href="#0">весенняя серия постов</a> в блоге и несколько подкастов</p>
+                        <div class="product-card__prices">
+                            <div class="product-card__price-box">
+                                <div class="product-card__price product-card__price-old">
+                                    <span class="product-card__price-value"></span>
+                                    <span class="product-card__price-rub"></span>
                                 </div>  
-                                <div class="products__price">
-                                    <span class="products__price_value">3500</span>
-                                    <span class="products__price_rub">₽</span>
+                                <div class="product-card__price">
+                                    <span class="product-card__price-value">3500</span>
+                                    <span class="product-card__price-rub">₽</span>
                                 </div>
                             </div>
-                            <a class="products__price_button" href="#0">В магазин</a>
+                            <a class="product-card__price-button" href="#0">В магазин</a>
                         </div>
                     </div>
                 </article>
 
-                <article class="products_card">
-                    <!-- <div class="products__images"> -->
-                        <picture class="products__images">
-                            <source media="(min-width: 1200px)" srcset="img/shop-item-desk3.jpg">
-                            <source media="(min-width: 641px)" srcset="img/shop-item-tablet3.jpg">
-                            <img src="img/shop-item-mobile3.jpg" alt="Шестиугольная рамка из дерева">
+                <article class="product-card products__card">
+                        <picture class="product-card__images">
+                            <source class="product-card__images-first" media="(min-width: 1200px)" srcset="img/shop-item-desk3.jpg">
+                            <source class="product-card__images-second" media="(min-width: 641px)" srcset="img/shop-item-tablet3.jpg">
+                            <img class="product-card__img" src="img/shop-item-mobile3.jpg" alt="Шестиугольная рамка из дерева">
                         </picture>
-                    <!-- </div> -->
-                    <div class="products__card_body">
-                        <h3 class="products__card_title">Шестиугольная рамка</h3>
-                        <p class="products__card_description">Необычная рамка для украшения дома из видео <a class="products__card_link" href="#0">«Как сделать рамку из подручных средств за 30 минут»</a></p>
-                        <div class="products__prices">
-                            <div class="products__price_box">
-                                <div class="products__price products__price_old">
-                                    <span class="products__price_value">500</span>
-                                    <span class="products__price_rub">₽</span>
+                    <div class="product-card__body">
+                        <h3 class="product-card__title">Шестиугольная рамка</h3>
+                        <p class="product-card__description">Необычная рамка для украшения дома из видео <a class="product-card__link" href="#0">«Как сделать рамку из подручных средств за 30 минут»</a></p>
+                        <div class="product-card__prices">
+                            <div class="product-card__price-box">
+                                <div class="product-card__price product-card__price-old">
+                                    <span class="product-card__price-value">500</span>
+                                    <span class="product-card__price-rub">₽</span>
                                 </div>   
-                                <div class="products__price">
-                                    <span class="products__price_value">400</span>
-                                    <span class="products__price_rub">₽</span>
+                                <div class="product-card__price">
+                                    <span class="product-card__price-value">400</span>
+                                    <span class="product-card__price-rub">₽</span>
                                 </div>
                             </div>
-                            <a class="products__price_button" href="#0">В магазин</a>
+                            <a class="product-card__price-button" href="#0">В магазин</a>
                         </div>
                     </div>
                 </article>
             </div>
         </div>
 
-        <footer>
-            <div class="social__icons"> 
-                <ul class="social__icons_list">
-                    <li>
-                        <a class="social_icon_link twitter-icon" href="#0">
+        <footer class="footer">
+            <div class="footer__social-icons"> 
+                <ul class="footer__social-icons-items">
+                    <li class="footer__social-icons-item">
+                        <a class="footer__social-icons-link footer__social-icons-link_twitter" href="#0">
                             <span class="visually-hidden">Профиль компании в Twitter</span>
                         </a>
                     </li>
     
-                    <li>
-                        <a class="social_icon_link printerst-icon" href="#0">
+                    <li class="footer__social-icons-item">
+                        <a class="footer__social-icons-link footer__social-icons-link_printerst" href="#0">
                             <span class="visually-hidden">Профиль компании в Pinterest</span>
                         </a>
                     </li>
-                    <li>
-                        <a class="social_icon_link facebook-icon" href="#0">
+                    <li class="footer__social-icons-item">
+                        <a class="footer__social-icons-link footer__social-icons-link_facebook" href="#0">
                             <span class="visually-hidden">Профиль компании в Фейсбук</span>
                         </a>
                     </li>
-                    <li>
-                        <a class="social_icon_link instagram-icon" href="#0">
+                    <li class="footer__social-icons-item">
+                        <a class="footer__social-icons-link footer__social-icons-link_instagram" href="#0">
                             <span class="visually-hidden">Профиль компании в Инстаграмм</span>
                         </a>
                     </li>
-                    <li>
-                        <a class="social_icon_link telegram-icon" href="#0">
+                    <li class="footer__social-icons-item">
+                        <a class="footer__social-icons-link footer__social-icons-link_telegram" href="#0">
                             <span class="visually-hidden">Профиль компании в Tumblr</span>
                         </a>
                     </li>
                 </ul>
             </div>
-            <div class="copyright">
-                <p><a href="#0">Copyright © 2009–2019 City Blog LLC.</a></p>
+            <div class="footer__copyright">
+                <p class="footer__copyright-text">
+                    <a class="footer__copyright-link" href="#0">Copyright © 2009–2019 City Blog LLC.</a>
+                </p>
             </div>
         </footer>
     </div>
 
-    <div class="popup popup-active">
+    <div class="popup popup_active">
         <div class="popup__window">
-            <h2 class="cards__block_title orange">Ваш фидбэк</h2>
+            <h2 class="subtitle popup__subtitle">Ваш фидбэк</h2>
             <div class="popup__close">
-                <button class="popup__close_button">
-                    <img src="svg/form-x.svg" alt="Close button">
+                <button class="popup__close-button">
+                    <img class="popup__close-pic" src="svg/form-x.svg" alt="Close button">
                 </button>
             </div>
             <form class="popup__form form" name="popup_feedback">
@@ -519,29 +488,29 @@
                 <div class="form__box">
                     <span class="form__description">Вы подписаны на e-mail рассылку?</span>
                     <span class="visually-hidden">Поле выбора значения Да или Нет</span>
-                    <label class="radio__group">
-                        <input class="radio" type="radio" name="email" checked>
-                        <span class="form__radio_description">Да</span>
+                    <label class="form__radio-group">
+                        <input class="form__radio" type="radio" name="email" checked>
+                        <span class="form__radio-description">Да</span>
                     </label>
-                    <label class="radio__group">
-                        <input class="radio" type="radio" name="email">
-                        <span class="form__radio_description">Нет</span>
+                    <label class="form__radio-group">
+                        <input class="form__radio" type="radio" name="email">
+                        <span class="form__radio-description">Нет</span>
                     </label>
 
                 </div>
                 <div class="form__box">
                     <span class="form__description">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
                     <span class="visually-hidden">Поле для ввода текста</span>
-                    <textarea class="textarea_field" name="textarea" placeholder="Может,больше рецептов?"></textarea>
+                    <textarea class="form__textarea-field" name="textarea" placeholder="Может,больше рецептов?"></textarea>
                 </div>
                 <div class="form__box">
                     <span class="visually-hidden">Кнопка отправить</span>
                     <button class="form__button" type="submit">Отправить
                     </button>
                 </div>
-
             </form>
         </div>
     </div>
 </body>
 </html>
+
